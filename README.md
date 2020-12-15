@@ -1,5 +1,39 @@
 # Getting Started with Create React App
 
+[![NPM](https://nodei.co/npm/react-code-input.png?downloads=true&stars=true)](https://nodei.co/npm/react-code-input/)
+
+```js
+import React from "react";
+import ReactCodeInput from 'react-code-input';
+
+// function App() {
+class App extends React.PureComponent {
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <ReactCodeInput type='password' fields={6} />
+```
+
+
+[![NPM](https://nodei.co/npm/react-verification-code-input.png?downloads=true&stars=true)](https://nodei.co/npm/react-verification-code-input/)
+
+```js
+import React from "react";
+import ReactCodeInput from 'react-verification-code-input';
+
+// function App() {
+class App extends React.PureComponent {
+    render() {
+        return ( <ReactCodeInput /> );
+    }
+}
+```
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
